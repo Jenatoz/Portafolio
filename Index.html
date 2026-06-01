@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Brayan Jeanpiere Valle Huaman | Portafolio</title>
+
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<style>
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#000000;
+}
+
+.project-card{
+    transition:all .3s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-6px);
+}
+
+.fade{
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+</style>
+</head>
+
+<body class="text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
+
+<div class="max-w-5xl mx-auto px-8 py-20">
+
+<!-- HERO -->
+
+<section class="fade">
+
+<span class="text-sm uppercase tracking-[0.3em] text-zinc-500">
+Ingeniería de Ciberseguridad
+</span>
+
+<h1 class="text-5xl md:text-7xl font-light mt-4 leading-tight">
+Brayan Jeanpiere
+<br>
+<span class="font-semibold">
+Valle Huaman
+</span>
+</h1>
+
+<p class="mt-8 max-w-3xl text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
+Estudiante de Ingeniería de Ciberseguridad con orientación en redes y telecomunicaciones.
+Interesado en la protección de infraestructuras tecnológicas, administración de redes empresariales
+y seguridad perimetral.
+
+Cuento con experiencia académica en soluciones Fortinet, tecnologías Cisco y Windows Server,
+además de conocimientos en Linux, VMware, análisis de redes y herramientas de diagnóstico.
+Mi objetivo es desarrollar soluciones seguras, eficientes y escalables que contribuyan a la
+protección de la información y continuidad operativa de las organizaciones.
+</p>
+
+
+</section>
+
+<!-- STATS -->
+
+<section class="mt-24 grid md:grid-cols-3 gap-8 border-y py-12">
+
+<div>
+<h3 class="text-4xl font-bold">6+</h3>
+<p class="text-zinc-500 mt-2">
+Tecnologías principales
+</p>
+</div>
+
+<div>
+<h3 class="text-4xl font-bold">3</h3>
+<p class="text-zinc-500 mt-2">
+Laboratorios destacados
+</p>
+</div>
+
+<div>
+<h3 class="text-4xl font-bold">1+</h3>
+<p class="text-zinc-500 mt-2">
+Certificaciones
+</p>
+</div>
+
+</section>
+
+<!-- STACK -->
+
+<section class="mt-24">
+
+<h2 class="text-2xl font-semibold mb-10">
+Stack Tecnológico
+</h2>
+
+<div class="flex flex-wrap gap-3">
+
+<span class="px-4 py-2 rounded-full border">FortiGate</span>
+<span class="px-4 py-2 rounded-full border">Fortinet</span>
+<span class="px-4 py-2 rounded-full border">Cisco</span>
+<span class="px-4 py-2 rounded-full border">Windows Server</span>
+<span class="px-4 py-2 rounded-full border">Linux</span>
+<span class="px-4 py-2 rounded-full border">VMware</span>
+<span class="px-4 py-2 rounded-full border">Nmap</span>
+<span class="px-4 py-2 rounded-full border">Wireshark</span>
+
+</div>
+
+</section>
+
+<!-- FORTALEZAS -->
+
+<section class="mt-24">
+
+<h2 class="text-2xl font-semibold mb-10">
+Áreas de Especialización
+</h2>
+
+<div class="grid md:grid-cols-2 gap-6">
+
+<div class="border rounded-2xl p-6">
+<h3 class="font-semibold mb-2">
+Seguridad Perimetral
+</h3>
+<p class="text-zinc-600">
+Implementación y administración de soluciones Fortinet.
+</p>
+</div>
+
+<div class="border rounded-2xl p-6">
+<h3 class="font-semibold mb-2">
+Redes Empresariales
+</h3>
+<p class="text-zinc-600">
+Diseño y segmentación de redes utilizando buenas prácticas.
+</p>
+</div>
+
+<div class="border rounded-2xl p-6">
+<h3 class="font-semibold mb-2">
+Windows Server
+</h3>
+<p class="text-zinc-600">
+Administración de servicios y entornos corporativos.
+</p>
+</div>
+
+<div class="border rounded-2xl p-6">
+<h3 class="font-semibold mb-2">
+Virtualización
+</h3>
+<p class="text-zinc-600">
+Implementación de laboratorios mediante VMware.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROYECTOS -->
+
+<section class="mt-24">
+
+<h2 class="text-2xl font-semibold mb-10">
+Proyectos y Laboratorios
+</h2>
+
+<div class="grid gap-6">
+
+<div class="project-card border rounded-3xl p-8">
+
+<h3 class="text-xl font-semibold">
+Implementación de Alta Disponibilidad en FortiGate (HA)
+</h3>
+
+<p class="mt-4 text-zinc-600 leading-relaxed">
+Configuración de un clúster Active-Passive mediante FGCP para garantizar
+continuidad operativa y tolerancia a fallos.
+</p>
+
+<a href="#"
+class="inline-block mt-5 text-blue-600 font-medium">
+Ver documentación →
+</a>
+
+</div>
+
+<div class="project-card border rounded-3xl p-8">
+
+<h3 class="text-xl font-semibold">
+Segmentación de Redes Empresariales con VLANs
+</h3>
+
+<p class="mt-4 text-zinc-600 leading-relaxed">
+Diseño de una infraestructura segmentada utilizando VLANs para mejorar
+rendimiento, administración y seguridad.
+</p>
+
+<a href="#"
+class="inline-block mt-5 text-blue-600 font-medium">
+Ver documentación →
+</a>
+
+</div>
+
+<div class="project-card border rounded-3xl p-8">
+
+<h3 class="text-xl font-semibold">
+Laboratorio de Análisis y Monitoreo de Red con NMAP
+</h3>
+
+<p class="mt-4 text-zinc-600 leading-relaxed">
+Implementación de prácticas de análisis de tráfico y descubrimiento de hosts
+mediante herramientas de monitoreo y diagnóstico.
+</p>
+
+<a href="#"
+class="inline-block mt-5 text-blue-600 font-medium">
+Ver documentación →
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CERTIFICACIONES -->
+
+<section class="mt-24">
+
+<h2 class="text-2xl font-semibold mb-10">
+Certificaciones
+</h2>
+
+<div class="border rounded-3xl p-8">
+
+<h3 class="font-semibold text-lg">
+Linux Essentials
+</h3>
+
+<p class="text-zinc-600 mt-2">
+Certificación orientada a fundamentos de administración y operación
+de sistemas Linux.
+</p>
+
+<a href="https://rha.ole.redhat.com/rha/api/certificates/attendance/uuid/404b52d0-ddec-4c47-beb0-0b3ea9480caf"
+target="_blank"
+class="inline-block mt-5 text-blue-600 font-medium">
+Ver certificado →
+</a>
+
+</div>
+
+</section>
+
+<!-- CONTACTO -->
+
+<section class="mt-24 border-t pt-12">
+
+<h2 class="text-2xl font-semibold mb-8">
+Contacto
+</h2>
+
+<div class="flex flex-wrap gap-8 text-lg">
+
+<a href="mailto:bvallehuaman@gmail.com"
+class="hover:text-blue-600 transition">
+📧 Correo
+</a>
+
+<a href="https://www.linkedin.com/in/brayan-jeanpiere-valle-huaman-556149378/"
+target="_blank"
+class="hover:text-blue-600 transition">
+💼 LinkedIn
+</a>
+
+<a href="https://github.com/Jenatoz"
+target="_blank"
+class="hover:text-blue-600 transition">
+💻 GitHub
+</a>
+
+</div>
+
+</section>
+
+
+</body>
+</html>
